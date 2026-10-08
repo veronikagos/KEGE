@@ -22,5 +22,3 @@ print(math.ceil(num)) # округление в большую сторону
 print(floor(num)) # округление в меньшую сторону
 print(log2(16))
 print(log10(100))
-
-
