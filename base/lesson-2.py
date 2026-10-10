@@ -44,7 +44,3 @@ print(my_dict['name'])
 # Логический тип / Boolean / bool
 my_bool_1 = True
 my_bool_2 = False
-
-
-x, y = 0, 1 # Присваивание значение сразу двум переменным
-x = y = 5 # Присваивание значение 5 и x, и y
