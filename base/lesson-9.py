@@ -11,3 +11,12 @@ else:
 # Задача на тернарного оператора
 num_1 = int(input())
 print(num_1 + 1 if num_1 % 2 == 0 else num_1)
+
+###############################################
+def amount_of_digits(num_1):
+    cnt = 0
+    while num_1:
+        num_1 //= 10
+        cnt += 1
+    return cnt
+print(amount_of_digits(458))
