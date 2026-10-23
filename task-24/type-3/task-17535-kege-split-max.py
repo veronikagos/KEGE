@@ -1,4 +1,4 @@
-with open(r'..\task files\24_17535.txt') as file:
+with open(r'..\task-files\24_17535.txt') as file:
     data = file.readline()
 
 data = data.replace('CD', 'C D')
