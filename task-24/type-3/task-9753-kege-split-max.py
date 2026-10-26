@@ -1,4 +1,4 @@
-with open(r'..\task files\24_9753.txt') as file:
+with open(r'..\task-files\24_9753.txt') as file:
     data = file.readline()
 
 data = data.split('Y') # разделеине строки на отдельные последовательности

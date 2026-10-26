@@ -1,4 +1,4 @@
-with open(r'..\task files\24_19254.txt') as file:
+with open(r'..\task-files\24_19254.txt') as file:
     data = file.readline()
 data = data.replace('FSRQ', '*** ***')
 data = data.split(' ')

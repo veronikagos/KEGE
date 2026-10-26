@@ -1,4 +1,4 @@
-with open(r'..\task files\24_21717.txt') as file:
+with open(r'..\task-files\24_21717.txt') as file:
     data = file.readline()
 
 data = data.split('RSQ')
