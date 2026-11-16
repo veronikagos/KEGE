@@ -1,6 +1,6 @@
 from string import printable
 
-for x in printable[:13]:
+for x in printable[1:13]:
     num_1 = int(f'9{x}ab', 13)
     num_2 = int(f'{x}46c', 16)
     num_3 = int(f'b7{x}', 15)
