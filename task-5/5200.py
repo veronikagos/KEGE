@@ -7,6 +7,8 @@ for n in range(1,10000):
     else:
         r = f'{n % 8 * 5:o}' + r
     r = int(r,8)
+    if n in (12,777):
+        print(n,r)
     if r == n:
         ans += [n]
 print(min(ans))
